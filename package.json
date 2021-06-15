@@ -1,0 +1,24 @@
+{
+  "name": "ichiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LokiLP66/ichiro.git"
+  },
+  "keywords": [
+    "ichiro",
+    "discord",
+    "bot"
+  ],
+  "author": "LokiLP66",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LokiLP66/ichiro/issues"
+  },
+  "homepage": "https://github.com/LokiLP66/ichiro#readme"
+}
