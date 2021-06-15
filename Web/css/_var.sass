@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap')
+    
+$font: #00FFF1
+$font-darker: #00c7bd
+$prime: #1a222e
+$second: #0c1016
+
+body,
+html
+    background-color: $second
+    font-family: 'Varela Round', sans-serif
+    display: flexbox
+    font-size: 10px
+    height: 100%
+    margin: 0
+    padding: 0
+    width: 100%
+    scroll-snap-type: y proximity
+
+*
+    box-sizing: border-box
+    color: $font
+
+//###################### Scrollbar #############################
+
+/* width */
+::-webkit-scrollbar 
+    width: 0.6rem
+
+
+/* Track */
+::-webkit-scrollbar-track 
+    background: none
+
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+    background: $font
+    border-radius: 3rem
+    transition: .3s
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+    background: $font-darker
+
+//###################### Scrollbar #############################
+
+
